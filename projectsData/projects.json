@@ -3,7 +3,7 @@
     {
       "id": "color-swipe",
       "name": "Color Swipe",
-      "description": "Color swipe is a simple mobile game made in unity. The main goal is to         swipe in time to the right color which maches the cube's color. The game         has some upgrades like in difficulty, as you progress you gain in-game         currency and with that the option to buy harder diffculties is made         available. There are also some customisation upgrades, background, which         similiar to difficulties can be bought with in-game currency.",
+      "description": "Color swipe is a simple mobile game made in Uunity. The main goal is to         swipe in time to the right color which matches the cube's color. The game         has some upgrades like in difficulty. As you progress you gain in-game         currency and with that the option to buy harder difficulties is made         available. There are also some customisation upgrades, background, which,         similar to difficulties can be bought with in-game currency.",
       "tags": ["Game", "Reaction Based", "Unity", "C#"],
       "image": "/projectImages/ColorSwipeCover.png",
       "link": "https://jupiter090.itch.io/color-swipe"
@@ -11,7 +11,7 @@
     {
       "id": "time-point",
       "name": "Time Point",
-      "description": "Time point is a game made in Unity. The player is put in a control of a rocket, and their goal is to collect as many point in limited time as possible. To help with collecting power ups also spawn on the map which each helps in different way like speed or time. For the points collected players gain currency which is used to either buy upgrades to help collect even more points or buy cosmetic skins. The game also includes achievement system with rewards which challanges the player to improve their game skill.",
+      "description": "Time point is a game made in Unity. The player is put in control of a rocket, and their goal is to collect as many points in limited time as possible. To help with collecting, power-ups also spawn on the map, each helping in a different way, like speed or time. For the points collected players gain currency which is used to either buy upgrades to help collect even more points or buy cosmetic skins. The game also includes an achievement system with rewards which challenges the player to improve their gaming skill.",
       "tags": ["Game", "Unity", "C#", "Upgrade System"],
       "image": "/projectImages/TimePointCover.png",
       "link": ""
@@ -19,7 +19,7 @@
     {
       "id": "quizzes",
       "name": "Quizzes Website",
-      "description": "A website to create and share quizzes. It has good UI for simple navigation. Quizzes consist of questions and a 4 choice answer. Once you publish your quiz you get given a public ID and an edit ID. Public ID is the one you share to others for them to try out your quiz. The edit ID shouldn't be shared with someone you don't trust as it's used to edit your quizzes. Once the user fill outs a quiz it gives them back result how they did on your quiz.",
+      "description": "A website to create and share quizzes. It has good UI for simple navigation. Quizzes consist of questions and 4 multiple-choice answer. Once you publish your quiz you are given a public ID and an edit ID. Public ID is the one you share with others for them to try out your quiz. The edit ID shouldn't be shared with someone you don't trust as it's used to edit your quizzes. Once the user fills outs a quiz it gives them back a result showing how they did on your quiz.",
       "tags": ["Website", "Sharing", "HTML, CSS, JS", "Asp.net API"],
       "image": "/projectImages/QuizzesCover.png",
       "link": "https://jupiter090.github.io"
@@ -27,7 +27,7 @@
     {
       "id": "store-tycoon",
       "name": "Store Tycoon",
-      "description": "One of my first games I've ever made, so it's not as polished as the others and also certainly not as good coded as the other ones. But as a first game I was comfortable to release it I think it's good enough attempt. In the game you have to build a store, you are given access to a few shelf on which you will store your products. When customers come in you either have to assist them at the cash register or hire an employee to assist them. The game's content is limited and there isn't much to do other then the things listed. But overall it might be a fun experience to try out for a few minutes and also the game isn't beinged developed anymore.",
+      "description": "This is one of my first games I've ever made, so it's not as polished as the others and also certainly not as well coded as the other ones. But as a first game I was comfortable releasing, I think it's good enough attempt. In the game you have to build a store, you are given access to a few shelves on which you will store your products. When customers come in you either have to assist them at the cash register or hire an employee to assist them. The game's content is limited and there isn't much to do other than the things listed. But overall it might be a fun experience to try out for a few minutes and also the game isn't being developed anymore.",
       "tags": ["Game", "Unity", "C#", "Management"],
       "image": "/projectImages/StoreTycoonCover.png",
       "link": "https://jupiter090.itch.io/store-tycoon"

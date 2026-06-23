@@ -277,6 +277,7 @@ PROJECTS
   padding: 0.25rem 1rem 0.25rem 1rem;
   border-radius: 25px;
   cursor: default;
+  text-align: center;
 }
 
 .project-overlay-description {
@@ -389,5 +390,8 @@ PROJECTS
   }
   .front-panel {
     margin: 0;
+  }
+  .tag {
+    font-size: 0.75rem;
   }
 }
