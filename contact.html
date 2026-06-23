@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="transition.css" />
+    <link rel="stylesheet" href="NavBar/navbar.css" />
+    <link rel="stylesheet" href="ContactPage/contact.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <nav>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+      </nav>
+
+      <nav id="mobile-nav">
+        <button class="close-button" onclick="onHamburgerClick()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+      </nav>
+    </div>
+
+    <main>
+      <div class="front-panel">
+        <h1 class="front-panel-name">Contact</h1>
+        <h2 class="front-panel-subtitle">
+          You can find me on <span>Github</span>, <span>Email</span>,
+          <span>X</span>
+        </h2>
+      </div>
+
+      <div class="panel">
+        <h2 class="panel-name">How to contact me</h2>
+        <div class="row">
+          <p class="panel-section">Github</p>
+          <button class="github-button">
+            <a href="https://github.com/Jupiter090" target="_blank"
+              >Open my Github page</a
+            >
+          </button>
+          <p class="panel-section">X</p>
+          <button class="github-button">
+            <a href="https://x.com/planetamatej" target="_blank"
+              >Open my X profile</a
+            >
+          </button>
+          <p class="panel-section">Email</p>
+          <button class="github-button">
+            <a href="mailto:planetamatej@gmail.com">Write me an email</a>
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="NavBar/navbar.js"></script>
+  </body>
+</html>

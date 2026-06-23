@@ -1,0 +1,237 @@
+html {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  color: white;
+
+  font-family: "Roboto";
+}
+
+body {
+  background:
+    radial-gradient(circle at center, #01061ae1, #000000ef),
+    linear-gradient(135deg, #000002, rgb(2, 140, 253));
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------------------------------
+                 FRONT PANEL
+------------------------------------------
+*/
+
+.front-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  margin: 1rem 1rem 0rem 1rem;
+  gap: 0.5rem;
+
+  width: calc(100% - 2rem);
+  height: 40vh;
+
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 3, 0.582);
+}
+
+.site-name {
+  font-size: 300%;
+  text-align: start;
+  color: #6cb4ff;
+  text-shadow: 0 0 20px rgba(108, 180, 255, 0.35);
+  margin-top: -1rem;
+  margin-bottom: 0;
+}
+
+.site-subtitle {
+  margin: 0;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+.site-subtitle span {
+  animation: subtitleAnim 3s infinite;
+  transition: all 0.3ms ease;
+}
+.site-subtitle span:nth-child(1) {
+  animation-delay: 0s;
+}
+.site-subtitle span:nth-child(2) {
+  animation-delay: 1s;
+}
+.site-subtitle span:nth-child(3) {
+  animation-delay: 2s;
+}
+
+@keyframes subtitleAnim {
+  0%,
+  100% {
+    color: rgb(197, 197, 197);
+    text-shadow: none;
+  }
+  20%,
+  40% {
+    color: #5488c0;
+    text-shadow: 0 0 20px rgba(47, 76, 107, 0.35);
+  }
+  40%,
+  100% {
+    color: rgb(197, 197, 197);
+    text-shadow: none;
+  }
+}
+
+.projects-button {
+  border-radius: 0.5rem;
+  height: 4rem;
+  width: 15rem;
+
+  background: #061f61;
+  border-style: none;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition:
+    background 0.25s ease-in,
+    box-shadow 0.25s ease-in,
+    color 0.25s ease-in;
+}
+.projects-button:hover {
+  cursor: pointer;
+  background: #0b2e8f;
+  box-shadow: 0 0 15px rgb(32, 20, 209);
+}
+.projects-button:active {
+  background: #0d36a5;
+  box-shadow: 0 0 15px rgb(40, 25, 245);
+}
+.projects-button p {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.projects-button:hover p {
+  color: rgb(204, 245, 255);
+}
+
+/* ---------------------------------------
+                 ABOUT ME
+------------------------------------------
+*/
+.about-me-panel {
+  align-self: center;
+  padding: 0 2rem 0 2rem;
+  margin-top: 1rem;
+  width: 80%;
+  border-radius: 1rem;
+  background: rgba(0, 0, 3, 0.582);
+}
+.about-me-name {
+  margin-top: 3rem;
+  font-size: 2rem;
+
+  gap: 0;
+}
+.about-me-name span {
+  color: #6cb4ff;
+  text-shadow: 0 0 5px rgba(108, 180, 255, 0.35);
+}
+.about-me-cursor {
+  animation: cursorAnimation 1s infinite;
+  transition: all ease;
+  border-style: solid;
+}
+@media (max-width: 600px) {
+  .about-me-cursor::before {
+    content: "\A";
+    white-space: pre;
+  }
+  .about-me-cursor::after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+.about-me-text {
+  text-align: justify;
+  font-size: 1.1em;
+}
+.about-me-text span {
+  color: #6cb4ff;
+  text-shadow: 0 0 5px rgba(108, 180, 255, 0.35);
+  font-weight: bold;
+}
+
+@keyframes cursorAnimation {
+  0%,
+  100% {
+    border: #00000000;
+    border-right: #000000;
+    border-style: solid;
+  }
+  25%,
+  75% {
+    border: #00000000;
+    border-right: #ffffff;
+    border-style: solid;
+  }
+  75%,
+  100% {
+    border: #00000000;
+    border-right: #000000;
+    border-style: solid;
+  }
+}
+
+/* ---------------------------------------
+                 JOURNEY
+------------------------------------------
+*/
+.journey-panel {
+  align-self: center;
+  padding: 0 2rem 0 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  border-radius: 1rem;
+  background: rgba(0, 0, 3, 0.582);
+}
+.journey-name {
+  margin-top: 3rem;
+  font-size: 2rem;
+
+  gap: 0;
+}
+.journey-name span {
+  color: #6cb4ff;
+  text-shadow: 0 0 5px rgba(108, 180, 255, 0.35);
+}
+.journey-text {
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+  .front-panel {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+/*
+--------------------
+----TRANSITION------
+--------------------
+*/

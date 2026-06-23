@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="transition.css" />
+    <link rel="stylesheet" href="NavBar/navbar.css" />
+    <link rel="stylesheet" href="ProjectsPage/projectPage.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <nav>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+
+      </nav>
+
+      <nav id="mobile-nav">
+        <button class="close-button" onclick="onHamburgerClick()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+      </nav>
+    </div>
+
+    <main>
+      <div class="front-panel">
+        <h1 class="front-panel-name">My Projects</h1>
+        <h2 class="front-panel-subtitle">
+          <span>Game</span>, <span>Console Apps</span>,
+          <span>Windows Forms Apps</span>, <span>Websites</span>
+        </h2>
+      </div>
+
+      <div id="projects">
+        <div class="project-wrapper" id="color-swipe">
+          <div class="project">
+            <div class="project-image"></div>
+            <img src="/projectImages/ColorSwipe.png" alt="Color Swipe" />
+            <p class="project-name">Color Swipe</p>
+            <p class="project-description">
+              A simple game, where goal is to react in time.
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper" id="time-point">
+          <div class="project">
+            <div class="project-image"></div>
+            <img src="/projectImages/TimePoint.png" alt="Time Point" />
+            <p class="project-name">Time Point</p>
+            <p class="project-description">
+              A strategic game about collecting points and unlocking upgrades
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper" id="quizzes">
+          <div class="project">
+            <div class="project-image"></div>
+            <img src="/projectImages/Quizzes.png" alt="Quizzes" />
+            <p class="project-name">Quizzes</p>
+            <p class="project-description">
+              A website to make and share quizzes
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper" id="store-tycoon">
+          <div class="project">
+            <div class="project-image"></div>
+            <img src="/projectImages/StoreTycoon.png" alt="Store Tycoon" />
+            <p class="project-name">Store Tycoon</p>
+            <p class="project-description">
+              A shop managment game, earn money, upgrade your store, become a
+              monopoly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="project-overlay">
+      <button class="close-button" onclick="hideProjectOverlay()">&#10006</button>
+      <div class="project-overlay-cover-image"></div>
+      <h1></h1>
+      <div class="project-tags"></div>
+      <p class="project-overlay-description"></p>
+      <button><a target="_blank">Link to the project</a></button>
+    </div>
+
+    <script src="ProjectsPage/projectCard.js"></script>
+    <script src="NavBar/navbar.js"></script>
+  </body>
+</html>

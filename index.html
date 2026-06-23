@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matej Planeta</title>
+    <link href="FrontPage/frontPage.css" rel="stylesheet" />
+    <link href="NavBar/navbar.css" rel="stylesheet" />
+    <link href="transition.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onload="typingAnimation()">
+    <div id="navbar">
+      <nav>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+      </nav>
+
+      <nav id="mobile-nav">
+        <button class="close-button" onclick="onHamburgerClick()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+        <h1>Matej Planeta</h1>
+        <button><a href="/">Home</a></button>
+        <button><a href="/projects.html">Projects</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+      </nav>
+    </div>
+    <main>
+      <div class="front-panel">
+        <h1 class="site-name">Matej Planeta</h1>
+        <h2 class="site-subtitle">
+          A <span>programmer</span>, <span>student</span>, <span>game-dev</span>
+        </h2>
+        <button class="projects-button">
+          <a href="/projects.html" style="font-size: 1.75rem; font-weight: bold"
+            >My Projects</a
+          >
+        </button>
+      </div>
+
+      <div class="about-me-panel">
+        <h2 class="about-me-name">
+          Something <span id="typingAnim" class="about-me-cursor"></span> about
+          <span>me</span>...
+        </h2>
+        <p class="about-me-text">
+          Hi, I'm <span>Matej</span> and I'm from Slovakia. I'm currently
+          studying at a high school. My hobbies: quite obviously I'm interested
+          in computers as a whole, but mainly the software side of things but
+          that doesn't mean, that I don't have any knowledge about hardware. On
+          the other side I quite like going on walk as a method of relaxing and
+          clearing my mind. I've gained intereset in programming about 5-6 years
+          ago and also started to learn it around that time. First language and
+          the one that I use the most often to this day is <span>C#</span>. Back
+          then I only made simple console applications, but I slowly moved my
+          intereset to making games in Unity. Along the way I also gained some
+          knowledge in other parts of software development like
+          <span>Python</span> and <span>web development</span>.
+        </p>
+      </div>
+
+      <div class="journey-panel">
+        <h2 class="journey-name">My <span>journey</span> so far...</h2>
+        <p class="journey-text">
+          My journey began in my childhood. I was really intrested in computers
+          and how they work since I've been a kid. And that curiosity just grew
+          and grew over the year, until the year 2020, when I saw a tutorial on
+          youtube on how to code in C#. It was something that I always wanted to
+          try so I wasted no time and got right into it, but at first I wasn't
+          actually learning anything, just copying tutorials and because of that
+          I gave up on coding. But after a few months I discovered this mobile
+          app, which was able to teach me how to make websites and I downloaded
+          it right away. It took me a bit of time but eventually I was able to
+          finish every lesson in that app and made my first website. It wasn't
+          anything spectacular, but I was proud of myself because I just made
+          something built completly by me with no help of tutorials. After this
+          acheivement I made the step to try and learn C# again, but this time
+          actually trying to understand what each thing meant. And it paid off,
+          I was able to make projects by myself. Afterwards I experimented a bit
+          with C# like console applications, web app with C# backend, windows
+          forms apps, but eventually I landed on Unity where I spent most of my
+          time. I've been learning Unity ever since and already finished a few
+          smaller games, which you will be able to see at the projects page so
+          go chek it out :). Alongside learning C# and Unity I also tried other
+          languages like Python or Java, but I haven't reached a level where I
+          would be able to make what is considred by me a 'good code'.
+        </p>
+      </div>
+    </main>
+    <script src="FrontPage/typingAnimFrontPage.js" defer></script>
+    <script src="NavBar/navbar.js"></script>
+  </body>
+</html>
