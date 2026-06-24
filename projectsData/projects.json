@@ -22,7 +22,7 @@
       "description": "A website to create and share quizzes. It has good UI for simple navigation. Quizzes consist of questions and 4 multiple-choice answer. Once you publish your quiz you are given a public ID and an edit ID. Public ID is the one you share with others for them to try out your quiz. The edit ID shouldn't be shared with someone you don't trust as it's used to edit your quizzes. Once the user fills outs a quiz it gives them back a result showing how they did on your quiz.",
       "tags": ["Website", "Sharing", "HTML, CSS, JS", "Asp.net API"],
       "image": "/projectImages/QuizzesCover.png",
-      "link": "https://jupiter090.github.io"
+      "link": "https://quizwebsite.quizcreator.workers.dev"
     },
     {
       "id": "store-tycoon",
