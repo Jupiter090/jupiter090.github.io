@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: white;
+
+  font-family: "Roboto";
+}
+
+body {
+  background:
+    radial-gradient(circle at center, #01061ae1, #000000ef),
+    linear-gradient(135deg, #000002, rgb(2, 140, 253));
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.front-panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-direction: column;
+  margin: 0 1rem 0rem 1rem;
+
+  width: calc(100% - 2rem);
+  height: 80%;
+
+  border-radius: 1rem;
+  background-color: #00000394;
+}
+
+.front-panel-name {
+  font-size: 300%;
+  text-align: start;
+  color: #6cb4ff;
+  text-shadow: 0 0 20px rgba(108, 180, 255, 0.35);
+  margin-top: -1rem;
+  margin-bottom: 0;
+}
+
+.front-panel-subtitle {
+  margin: 0;
+  font-size: 150%;
+  font-weight: normal;
+}
+.projects-button {
+  border-radius: 0.5rem;
+  height: 4rem;
+  width: 15rem;
+
+  background: #061f61;
+  border-style: none;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition:
+    background 0.25s ease-in,
+    box-shadow 0.25s ease-in,
+    color 0.25s ease-in;
+}
+.projects-button:hover {
+  cursor: pointer;
+  background: #0b2e8f;
+  box-shadow: 0 0 15px rgb(32, 20, 209);
+}
+.projects-button:active {
+  background: #0d36a5;
+  box-shadow: 0 0 15px rgb(40, 25, 245);
+}
+.projects-button a {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.projects-button:hover a {
+  color: rgb(204, 245, 255);
+}
