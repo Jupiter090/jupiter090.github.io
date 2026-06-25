@@ -15,8 +15,8 @@ html {
 
 body {
   background:
-    radial-gradient(circle at center, #01061ae1, #000000ef),
-    linear-gradient(135deg, #000002, rgb(2, 140, 253));
+    radial-gradient(circle at center, #820707e1, #000000ef),
+    linear-gradient(135deg, #000002, #820707);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -48,8 +48,8 @@ main {
 .front-panel-name {
   font-size: 300%;
   text-align: start;
-  color: #6cb4ff;
-  text-shadow: 0 0 20px rgba(108, 180, 255, 0.35);
+  color: #e01212;
+  text-shadow: 0 0 20px rgba(161, 6, 6, 0.35);
   margin-top: -1rem;
   margin-bottom: 0;
 }
@@ -64,7 +64,7 @@ main {
   height: 4rem;
   width: 15rem;
 
-  background: #061f61;
+  background: #4f0707;
   border-style: none;
   margin-top: 2rem;
 
