@@ -3,7 +3,7 @@
     {
       "id": "color-swipe",
       "name": "Color Swipe",
-      "description": "Color swipe is a simple mobile game made in Uunity. The main goal is to         swipe in time to the right color which matches the cube's color. The game         has some upgrades like in difficulty. As you progress you gain in-game         currency and with that the option to buy harder difficulties is made         available. There are also some customisation upgrades, background, which,         similar to difficulties can be bought with in-game currency.",
+      "description": "Color swipe is a simple mobile game made in Unity. The main goal is to         swipe in time to the right color which matches the cube's color. The game         has some upgrades like in difficulty. As you progress you gain in-game         currency and with that the option to buy harder difficulties is made         available. There are also some customisation upgrades, background, which,         similar to difficulties can be bought with in-game currency.",
       "tags": ["Game", "Reaction Based", "Unity", "C#"],
       "image": "/projectImages/ColorSwipeCover.png",
       "link": "https://jupiter090.itch.io/color-swipe"
