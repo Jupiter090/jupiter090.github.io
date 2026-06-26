@@ -7,6 +7,7 @@ let indexOfWord = 0;
 var word = "";
 var speed = 50;
 var delayAfterFinishedAnim = 1000;
+textBox.innerHTML = "";
 
 function typingAnimation() {
   word = words[indexOfWord];
